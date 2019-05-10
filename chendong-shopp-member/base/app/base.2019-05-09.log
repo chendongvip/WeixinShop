@@ -1,0 +1,40 @@
+2019-05-09 15:23:29.580 [main] INFO  com.chendong.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-09 15:23:33.760 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-05-09 15:23:33.789 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-09 15:23:33.789 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-05-09 15:23:33.803 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\java8\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/java8/jdk1.8.0_131/bin/../jre/bin/server;C:/Program Files/java8/jdk1.8.0_131/bin/../jre/bin;C:/Program Files/java8/jdk1.8.0_131/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\java8\jdk1.8.0_131\bin;C:\Program Files\java8\jdk1.8.0_131\jre\bin;C:\Users\Administrator\AppData\Local\BypassRuntm;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\eclipse\eclipse\eclipse;;.]
+2019-05-09 15:23:34.118 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-09 15:23:37.654 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-09 15:23:37.654 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-09 15:23:37.682 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-09 15:23:37.682 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-09 15:23:40.956 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-09 15:23:41.837 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-09 15:23:41.837 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-09 15:23:42.129 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-09 15:23:42.129 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-09 15:23:42.751 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-09 15:23:42.954 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-09 15:23:42.954 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-09 15:23:42.954 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-09 15:23:42.955 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-09 15:23:42.955 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-09 15:23:42.955 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-09 15:23:42.956 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-09 15:23:43.646 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-09 15:23:43.650 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-09 15:23:43.654 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-09 15:23:43.675 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557386623658 with initial instances count: 1
+2019-05-09 15:23:43.683 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557386623683, current=UP, previous=STARTING]
+2019-05-09 15:23:43.686 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/PC-201805251336:member:8762: registering service...
+2019-05-09 15:23:43.708 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-05-09 15:23:43.788 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-09 15:23:43.836 [main] INFO  com.chendong.MemberServer - Started MemberServer in 17.338 seconds (JVM running for 19.589)
+2019-05-09 15:23:43.880 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/PC-201805251336:member:8762 - registration status: 204
+2019-05-09 15:25:05.033 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-09 15:25:05.340 [http-nio-8762-exec-1] INFO  com.chendong.api.service.impl.DemoApiServiceImpl - this is demo
+2019-05-09 15:28:42.978 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-09 15:33:42.998 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-09 15:38:43.018 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-09 15:43:43.037 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-09 15:48:43.055 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
