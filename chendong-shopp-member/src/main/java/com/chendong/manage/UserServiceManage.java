@@ -13,4 +13,9 @@ public interface UserServiceManage {
 	 * 注册服务逻辑
 	 */
 	public void regist(UserEntity userEntity);
+	
+	/**
+	 * MD5加密功能
+	 */
+	public String md5PassSalt(String phone,String password);
 }

@@ -2,9 +2,11 @@ package com.chendong.common.entity;
 
 import java.sql.Timestamp;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class BaseEntity {
 
 	/**
@@ -22,5 +24,5 @@ public class BaseEntity {
 	 * 修改时间
 	 */
 	
-	private Timestamp update;
+	private Timestamp updated;
 }

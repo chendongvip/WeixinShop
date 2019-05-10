@@ -63,16 +63,18 @@
 		<artifactId>spring-boot-starter-test</artifactId>
 		<scope>test</scope>
 	</dependency>
-	<dependency>
-		<groupId>org.mybatis</groupId>
-		<artifactId>mybatis</artifactId>
-		<version>3.4.0</version>
-	</dependency>
-	<dependency>
-		<groupId>tk.mybatis</groupId>
-		<artifactId>mapper</artifactId>
-		<version>3.3.7</version>
-	</dependency>
+    <dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>tk.mybatis</groupId>
+			<artifactId>mapper</artifactId>
+			<version>3.3.7</version>
+		</dependency>
+
+
 	<!-- 阿里巴巴数据源 -->
 	<dependency>
 		<groupId>com.alibaba</groupId>
@@ -160,5 +162,6 @@
 		<module>chendong-shopp-api</module>
 		<module>chendong-shopp-member</module>
 		<module>chendong-shopp-common</module>
+		<module>chendong-shopp-messages</module>
 	</modules>
 </project>

@@ -2,9 +2,11 @@ package com.chendong.api.entity;
 
 import com.chendong.common.entity.BaseEntity;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class UserEntity extends BaseEntity{
 
 	private String userName;
