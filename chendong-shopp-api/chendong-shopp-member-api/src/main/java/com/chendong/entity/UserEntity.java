@@ -1,4 +1,4 @@
-package com.chendong.api.entity;
+package com.chendong.entity;
 
 import com.chendong.common.entity.BaseEntity;
 
