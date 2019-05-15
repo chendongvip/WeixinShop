@@ -164,5 +164,6 @@
 		<module>chendong-shopp-common</module>
 		<module>chendong-shopp-messages</module>
 		<module>chendong-shopp-mobile-web</module>
+		<module>chendong-shopp-commodity</module>
 	</modules>
 </project>

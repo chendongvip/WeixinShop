@@ -24,6 +24,18 @@
 			<artifactId>chendong-shopp-member-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.chendong</groupId>
+			<artifactId>chendong-shopp-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.chendong</groupId>
+			<artifactId>chendong-shopp-commodity-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
         
   </dependencies>
 </project>

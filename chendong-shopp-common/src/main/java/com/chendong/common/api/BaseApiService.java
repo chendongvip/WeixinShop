@@ -33,6 +33,17 @@ public class BaseApiService{
 			return setResult(BaseApiConstarts.HTTP_RES_CODE_400, msg, null);
 		}
 
+		/**
+		 * 
+		 * @methodDesc: 功能描述:(返回成功)
+		 * @param: @param
+		 *             msg
+		 * @param: @return
+		 */
+		public Map<String, Object> setResutSuccess(String msg) {
+			return setResult(BaseApiConstarts.HTTP_RES_CODE_200, msg, null);
+		}
+		
 		// 自定义
 		public Map<String, Object> setResult(Integer code, String msg, Object data) {
 			Map<String, Object> resultMap = new HashMap<String, Object>();

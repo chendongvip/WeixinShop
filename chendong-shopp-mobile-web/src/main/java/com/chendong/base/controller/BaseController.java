@@ -15,7 +15,7 @@ import com.chendong.feign.UserFeign;
 
 @Controller
 public class BaseController {
-
+	public static final String ERROR = "common/error";
 	@Autowired
 	private UserFeign userFegin;
 	
@@ -33,7 +33,7 @@ public class BaseController {
 	};
 	
 	public String setError(HttpServletRequest request,String msg,String address){
-		request.setAttribute("error", "注册失败！");
+		request.setAttribute("error", msg);
 		return address;
 	}
 }

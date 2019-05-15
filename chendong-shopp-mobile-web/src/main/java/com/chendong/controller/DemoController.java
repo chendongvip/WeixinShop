@@ -13,7 +13,7 @@ public class DemoController extends BaseController{
 
 	private static final String INDEX="index";
 	
-	@RequestMapping("/index")
+	@RequestMapping("/indexdemo")
 	public String index(HttpServletRequest request,String token){
 		log.info("我的web工程搭建成功啦,userName:{}"+getUserEntity(token).getUserName());
 		return INDEX;
